@@ -1,0 +1,22 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #000; 
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    font-size: 3rem; 
+    color: #fff; 
+    text-align: center; 
+    border-bottom: 2px solid #007BFF; 
+    padding-bottom: 10px;
+}
